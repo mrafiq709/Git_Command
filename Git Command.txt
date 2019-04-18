@@ -16,7 +16,8 @@ git commit -m "Initial Commit"
 -------------------------------
 #If Remote is already exist:
 -------------------------------
-git remote set-url origin https://github.com/rafiq-istvn/XamarinApp.git
+git remote set-url origin https://github.com/rafiq-istvn/XamarinApps.git
+git remote -v
 
 ------------------
 #For Exception:
