@@ -25,6 +25,16 @@ Essential git Command
 #for marge conflict:
 ------------------------
     git commit -a
+
+#for  "! [rejected]        master -> master (non-fast-forward)"
+--------------------------------------------------------------------
+`
+    git pull origin master
+    git fetch origin
+    git merge origin/master
+    git pull --rebase origin master
+    git push origin master
+`
     
 #For set Username and Email:
 -----------------------------
