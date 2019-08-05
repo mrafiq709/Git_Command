@@ -40,10 +40,14 @@ Essential git Command
     git config --global user.email "mrafiq709@gmail.com"
     git remote rm origin
 
-#For Branch:
+#For Branch Create:
 --------------------
     git checkout -b AppLifeCycle
     git pull origin AppLifeCycle
+    
+#For Brance Clone:
+--------------------
+    git clone -b <branch> <remote_repo>
 
 #For Branch Rename:
 ------------------------------
