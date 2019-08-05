@@ -44,7 +44,11 @@ git config --global user.name "mrafiq709"
 git config --global user.email "mrafiq709@gmail.com"
 git remote rm origin
 --------------------
-#For Branch:
+#For Brance clone:
+--------------------
+git clone -b <branch> <remote_repo>
+--------------------
+#For Branch Create:
 --------------------
 git checkout -b AppLifeCycle
 git pull origin AppLifeCycle
