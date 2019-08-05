@@ -42,12 +42,12 @@ Essential git Command
 
 #For Branch Create:
 --------------------
-    git checkout -b AppLifeCycle
-    git pull origin AppLifeCycle
+    git checkout -b <branch-name>
+    git pull origin <branch-name>
     
 #For Brance Clone:
 --------------------
-    git clone -b <branch> <remote_repo>
+    git clone -b <branch-name> <remote_repo>
 
 #For Branch Rename:
 ------------------------------
@@ -56,4 +56,4 @@ Essential git Command
 
 #For Branch Delete:
 -------------------------
-    git push origin --delete <branch>
+    git push origin --delete <branch-name>
