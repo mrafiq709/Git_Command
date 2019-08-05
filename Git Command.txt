@@ -1,7 +1,7 @@
 ---------------------
 #For adding Remote:
 ---------------------
-git remote add origin https://github.com/rafiq-istvn/XamarinApps.git
+git remote add origin <remote_repo>
 
 ----------------------
 #For adding all Files:
@@ -16,7 +16,7 @@ git commit -m "Initial Commit"
 -------------------------------
 #If Remote is already exist:
 -------------------------------
-git remote set-url origin https://github.com/rafiq-istvn/XamarinApps.git
+git remote set-url origin <remote_repo>
 git remote -v
 
 ------------------
@@ -27,7 +27,7 @@ git pull origin master --allow-unrelated-histories
 ------------------------
 #for marge conflict:
 ------------------------
-git commit -a
+git commit -a [Warning: Before pushing solve merge conflict manually if any problem]
 
 --------------------------------------------------------------------
 #for  "! [rejected]        master -> master (non-fast-forward)"
@@ -40,8 +40,8 @@ git push origin master
 
 #For set Username and Email:
 -----------------------------
-git config --global user.name "mrafiq709"
-git config --global user.email "mrafiq709@gmail.com"
+git config --global user.name "user_name"
+git config --global user.email "user_email"
 git remote rm origin
 --------------------
 #For Brance clone:
@@ -50,8 +50,8 @@ git clone -b <branch> <remote_repo>
 --------------------
 #For Branch Create:
 --------------------
-git checkout -b AppLifeCycle
-git pull origin AppLifeCycle
+git checkout -b <Branch-name>
+git pull origin <Branch-name>
 ------------------------------
 #For Branch Rename:
 ------------------------------
@@ -60,4 +60,4 @@ git push --set-upstream origin new_branch /* Push the new branch, set local bran
 -------------------------
 #For Branch Delete:
 -------------------------
-git push origin --delete <branch>
+git push origin --delete <branch-name>
