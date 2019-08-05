@@ -3,7 +3,7 @@ Essential git Command
 
 #For adding Remote:
 ---------------------
-    git remote add origin https://github.com/rafiq-istvn/XamarinApps.git
+    git remote add origin <remote_repo>
 
 #For adding all Files:
 ----------------------
@@ -15,7 +15,7 @@ Essential git Command
 
 #If Remote is already exist:
 -------------------------------
-    git remote set-url origin https://github.com/rafiq-istvn/XamarinApps.git
+    git remote set-url origin <remote_repo>
     git remote -v
 
 #For Exception:
@@ -36,8 +36,8 @@ Essential git Command
     
 #For set Username and Email:
 -----------------------------
-    git config --global user.name "mrafiq709"
-    git config --global user.email "mrafiq709@gmail.com"
+    git config --global user.name "user_name"
+    git config --global user.email "user_email"
     git remote rm origin
 
 #For Branch Create:
