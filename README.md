@@ -25,6 +25,7 @@ Essential git Command
 #for marge conflict:
 ------------------------
     git commit -a
+    [Warning !!! Before Pushing Solve the merge conflict manually and then again commit -> then push]
 
 #for  "! [rejected]        master -> master (non-fast-forward)"
 --------------------------------------------------------------------
