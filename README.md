@@ -58,3 +58,7 @@ Essential git Command
 #For Branch Delete:
 -------------------------
     git push origin --delete <branch-name>
+    
+# fatal: refusing to merge unrelated histories:
+------------------------------------------------
+    git pull origin branchname --allow-unrelated-histories
