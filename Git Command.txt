@@ -61,3 +61,7 @@ git push --set-upstream origin new_branch /* Push the new branch, set local bran
 #For Branch Delete:
 -------------------------
 git push origin --delete <branch-name>
+
+#Delete Recently Pull Request:
+-----------------------------------
+git reset --hard HEAD^1
