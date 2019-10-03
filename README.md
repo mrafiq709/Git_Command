@@ -62,3 +62,7 @@ Essential git Command
 #fatal: refusing to merge unrelated histories:
 ------------------------------------------------
     git pull origin branchname --allow-unrelated-histories
+
+#Delete Recently Pull Request:
+-----------------------------------
+    git reset --hard HEAD^1
