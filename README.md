@@ -35,6 +35,16 @@ Essential git Command
     git pull --rebase origin master
     git push origin master
     
+#for  "! [rejected]        brach -> branch (non-fast-forward)"
+--------------------------------------------------------------------
+<a href="https://imgur.com/jirwHNM"><img src="https://i.imgur.com/jirwHNM.png" title="source: imgur.com" /></a><br/><br/>
+
+    git fetch origin
+    git fetch origin branch_name
+    git merge/branch_name
+    
+    Then solve merge conflict and commit.
+    
 #For set Username and Email:
 -----------------------------
     git config --global user.name "user_name"
