@@ -45,6 +45,10 @@ Essential git Command
     
     Then solve merge conflict and commit.
     
+#Forcely push:
+------------------------------
+    git push --force origin master
+    
 #For set Username and Email:
 -----------------------------
     git config --global user.name "user_name"
