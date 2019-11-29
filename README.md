@@ -83,12 +83,12 @@ Essential git Command
     
 #If you want to see what you haven't git added yet:
 -----------------------------------------------------
-    git diff myfile.txt
+    git diff your_file_name.php
     
 #Already added changes
 -----------------------
-    git diff --cached myfile.txt
+    git diff --cached your_file_name.php
 
 #Will show you changes you added to your worktree from the last commit:
 ----------------------------------------------------------------------------
-    git diff HEAD file
+    git diff HEAD your_file_name.php
