@@ -80,3 +80,15 @@ Essential git Command
 #Delete Recently Pull Request:
 -----------------------------------
     git reset --hard HEAD^1
+    
+#If you want to see what you haven't git added yet:
+-----------------------------------------------------
+    git diff myfile.txt
+    
+#Already added changes
+-----------------------
+    git diff --cached myfile.txt
+
+#Will show you changes you added to your worktree from the last commit:
+----------------------------------------------------------------------------
+    git diff HEAD file
