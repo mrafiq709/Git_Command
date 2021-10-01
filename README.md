@@ -4,7 +4,11 @@ Essential git Command
 #For adding Remote:
 ---------------------
     git remote add origin <remote_repo>
-
+    
+#Git igone permission:
+----------------------
+    git config core.fileMode false
+    
 #For adding all Files:
 ----------------------
     git add .
