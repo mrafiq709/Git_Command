@@ -21,7 +21,11 @@ Essential git Command
 -------------------------------
     git remote set-url origin <remote_repo>
     git remote -v
-
+#Remove untracked files:
+-----------------------
+```
+git stash --include-untracked
+```
 #For Exception:
 ------------------
     git pull origin master --allow-unrelated-histories
